@@ -1,0 +1,448 @@
+body{
+  font-family: Tahoma, sans-serif;
+  font-size: 12pt;
+  margin: 0;}
+.ummc_fon{
+  background: url(../img/fon.png) repeat;}
+input{
+  font-size: 1.1em;}
+a{
+  color: #600;
+  text-decoration: none;}
+a:hover{
+  text-decoration: underline;}
+a:active{
+  color: #f90;}
+.ummc_wrap{
+  background: url(../img/shapka.png) repeat-x;
+  height: 91px;}
+.ummc_logo{
+  background: url(../img/black_background.png) no-repeat;
+  padding-left: 60px;
+  padding-top: 15px;
+  width: 335px;
+  height: 76px;}
+#UserName{
+  float: right;
+  font-size: 13pt;
+  margin-right: 20px;
+  margin-top: 20px;}
+.ummc_main_btn{
+  background: #b0b0b0;
+  background: -webkit-gradient(linear, left top, left bottom, from(#e6e6e6), to(#b0b0b0)); 
+  background: -moz-linear-gradient(top, #e6e6e6, #b0b0b0); 
+  border-top: 1px solid #fff;
+  color: #FFF;
+  font-size: 14px;
+  padding: 5px 18px;
+  text-decoration: none;
+  text-shadow: rgba(0,0,0,.4) 0 1px 0;
+  vertical-align: middle;
+  box-shadow: rgba(0,0,0,1) 0 1px 0;
+  moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+  webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;}
+
+.ummc_gray_fill{
+  background: #b0b0b0;
+  background: -webkit-gradient(linear, left top, left bottom, from(#e6e6e6), to(#b0b0b0)); 
+  background: -moz-linear-gradient(top, #e6e6e6, #b0b0b0); 
+}
+.ummc_gray_fill:active{
+  background: #737373;
+  border-top-color: #737373;
+}
+
+.ummc_orange_fill{
+  background: #e6850e; 
+  background: -webkit-gradient(linear, left top, left bottom, from(#fac94d), to(#ff9900)); 
+  background: -moz-linear-gradient(top, #fac94d, #ff9900); 
+}
+.ummc_orange_fill:active{
+  background: #ffd500;
+  border-top-color: #ffd500;
+}
+
+.ummc_home_btn{
+  position: absolute;
+  right: 130px;
+  top: 45px;
+}
+
+.ummc_exit_btn{
+  position: absolute;
+  right: 20px;
+  top: 45px;
+ }
+
+#mainScreen{
+  padding-top: 0px;
+}
+
+#ummc_menu{
+  display: inline-block;
+  background: gray;
+  background: url(../img/stroka.png) repeat-x;
+  width: 100%;
+  overflow: hidden;
+  padding-left: 0px;
+  border: 0;
+}
+
+.ummc_menu_btn{
+  background-image: url(../img/knopka.png);
+  color: #fff;
+  display: inline-block;
+  font-family: Tahoma, sans-serif;
+  font-size: 13px;
+  height: 17px;
+  margin-left: -30px;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  text-align: center;
+  text-shadow: rgba(0,0,0,.4) 0 1px 0;
+  width: 172px;
+}
+
+.ummc_menu_first_btn{
+  margin-left: -55px;
+}
+
+.ummc_menu_btn:hover{
+  color: #39c;
+}
+
+.ummc_menu_btn:active{
+  background-image: url(../img/knopka_a.png);
+}
+
+.ummc_group{
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.ummc_info_block{
+  display: inline-block;
+  moz-border-radius: 10px;
+  padding-right: 10px;
+  vertical-align: top;
+  width: 300px;
+}
+
+h3{
+  color: #ff782d;
+  text-shadow: rgba(0,0,0,.6) 1px 1px 0;
+}
+
+.imgLine{
+  height: auto;
+  min-height: 100%;
+  text-align: center;
+}
+
+ul{
+  text-align: left;
+}
+
+li{
+  color: #666;
+}
+
+.ummc_badge{
+  background-color: #ff782d;
+  box-shadow: rgba(0,0,1,1) 0 1px 1px;
+  color: #fff;
+  float: right;
+  font-size: 11.844px;
+  padding: 2px 9px;
+  text-shadow: rgba(0,0,0,.4) 0 1px 0;
+  white-space: nowrap;
+}
+
+.ummc_badge_gray{
+  background-color: #999;
+}
+
+.input-append
+{  display: inline-block;
+  float: right;
+}
+
+#ummc_find_fld{
+  width: 220px;
+}
+
+.ummc_btn{
+  margin-right: 0;
+}
+
+#ummc_footer{
+  background: url(../img/footer.png) repeat-x;
+  bottom: 0;
+  color: #fe9c06;
+  font-size: 14pt;
+  height: 26px;
+  margin-top: 10px;
+  padding-top: 4px;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+}
+
+.ummc_menu_collapse{
+  display: none;
+}
+
+.ummc_absolute{
+  position: absolute;
+}
+
+.ummc_curve{
+  border-radius: 10px;
+  khtml-border-radius: 10px;
+  moz-border-radius: 10px;
+  webkit-border-radius: 10px;
+}
+
+.ummc_small_curve{
+  border-radius: 5px;
+  khtml-border-radius: 5px;
+  moz-border-radius: 5px;
+  webkit-border-radius: 5px;
+}
+
+.ummc_middle_curve{
+  border-radius: 8px;
+  khtml-border-radius: 8px;
+  moz-border-radius: 8px;
+  webkit-border-radius: 8px;
+}
+
+.button3:active{
+  background: #ffd500;
+  border-top-color: #ffd500;
+}
+
+/*login page begin */
+.ummc_login_top{
+  width: 100%;
+  height: 150px;
+}
+
+#mwp_logo{
+  float: left;
+  padding-left: 10px;
+  width:400px;
+}
+
+.ummc_login_box{
+  color: #000;
+  float: left;
+  font-size: 1.5em;
+  line-height: 0.5;
+  width: 300px;
+  margin-left: 20px;
+}
+
+.ummc_login_frm{
+  background-clip: padding-box, border-box;
+  background-origin: padding-box, border-box;
+  border-bottom: 6px solid transparent;
+  border-top: 6px solid transparent;
+  bottom: 50px;
+  float: left;
+  font-size: .7em;
+  width: 100%;
+}
+
+
+table {
+  max-width: 100%;
+  background-color: transparent;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.table {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.table th,
+.table td {
+  padding: 8px;
+  line-height: 20px;
+  text-align: left;
+  vertical-align: top;
+  border-top: 1px solid #dddddd;
+}
+.table th {
+  font-weight: bold;
+}
+.table thead th {
+  vertical-align: bottom;
+}
+.table caption + thead tr:first-child th,
+.table caption + thead tr:first-child td,
+.table colgroup + thead tr:first-child th,
+.table colgroup + thead tr:first-child td,
+.table thead:first-child tr:first-child th,
+.table thead:first-child tr:first-child td {
+  border-top: 0;
+}
+.table tbody + tbody {
+  border-top: 2px solid #dddddd;
+}
+.table-condensed th,
+.table-condensed td {
+  padding: 4px 5px;
+}
+.table-bordered {
+  border: 1px solid #dddddd;
+  border-collapse: separate;
+  *border-collapse: collapse;
+  border-left: 0;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.table-bordered th,
+.table-bordered td {
+  border-left: 1px solid #dddddd;
+}
+.table-bordered caption + thead tr:first-child th,
+.table-bordered caption + tbody tr:first-child th,
+.table-bordered caption + tbody tr:first-child td,
+.table-bordered colgroup + thead tr:first-child th,
+.table-bordered colgroup + tbody tr:first-child th,
+.table-bordered colgroup + tbody tr:first-child td,
+.table-bordered thead:first-child tr:first-child th,
+.table-bordered tbody:first-child tr:first-child th,
+.table-bordered tbody:first-child tr:first-child td {
+  border-top: 0;
+}
+.table-bordered thead:first-child tr:first-child th:first-child,
+.table-bordered tbody:first-child tr:first-child td:first-child {
+  -webkit-border-top-left-radius: 4px;
+  border-top-left-radius: 4px;
+  -moz-border-radius-topleft: 4px;
+}
+.table-bordered thead:first-child tr:first-child th:last-child,
+.table-bordered tbody:first-child tr:first-child td:last-child {
+  -webkit-border-top-right-radius: 4px;
+  border-top-right-radius: 4px;
+  -moz-border-radius-topright: 4px;
+}
+.table-bordered thead:last-child tr:last-child th:first-child,
+.table-bordered tbody:last-child tr:last-child td:first-child,
+.table-bordered tfoot:last-child tr:last-child td:first-child {
+  -webkit-border-radius: 0 0 0 4px;
+  -moz-border-radius: 0 0 0 4px;
+  border-radius: 0 0 0 4px;
+  -webkit-border-bottom-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  -moz-border-radius-bottomleft: 4px;
+}
+.table-bordered thead:last-child tr:last-child th:last-child,
+.table-bordered tbody:last-child tr:last-child td:last-child,
+.table-bordered tfoot:last-child tr:last-child td:last-child {
+  -webkit-border-bottom-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  -moz-border-radius-bottomright: 4px;
+}
+.table-bordered caption + thead tr:first-child th:first-child,
+.table-bordered caption + tbody tr:first-child td:first-child,
+.table-bordered colgroup + thead tr:first-child th:first-child,
+.table-bordered colgroup + tbody tr:first-child td:first-child {
+  -webkit-border-top-left-radius: 4px;
+  border-top-left-radius: 4px;
+  -moz-border-radius-topleft: 4px;
+}
+.table-bordered caption + thead tr:first-child th:last-child,
+.table-bordered caption + tbody tr:first-child td:last-child,
+.table-bordered colgroup + thead tr:first-child th:last-child,
+.table-bordered colgroup + tbody tr:first-child td:last-child {
+  -webkit-border-top-right-radius: 4px;
+  border-top-right-radius: 4px;
+  -moz-border-right-topleft: 4px;
+}
+.table-striped tbody tr:nth-child(odd) td,
+.table-striped tbody tr:nth-child(odd) th {
+  background-color: #e5e5e5;
+}
+.table-hover tbody tr:hover td,
+.table-hover tbody tr:hover th {
+  background-color: #f5f5f5;
+}
+@media (max-width: 740px) {
+   #mwp_logo{
+    padding-left: 10px;
+    padding-top: 90px;
+    width:200px;
+  }
+}
+
+@media (max-width: 570px) {
+  .ummc_login_top{
+   display: none;
+  }
+  #mwp_logo{
+    margin: 0;
+    padding: 0;
+    top: 340px;
+    left:100px;
+    position: absolute;
+    -moz-transform: matrix(-1, 0, 0, 1, 0, 0);
+    -webkit-transform: matrix(-1, 0, 0, 1, 0, 0); 
+    -o-transform: matrix(-1, 0, 0, 1, 0, 0); 
+    -ms-transform: matrix(-1, 0, 0, 1, 0, 0); 
+  }
+/*login page end */
+
+  .ummc_logo{
+    display: none;
+  }
+  #ummc_menu{
+    max-height: 33px;
+    overflow: hidden;
+  }
+  #ummc_menu:hover{
+    max-height: 400px;
+    overflow: auto;
+  }
+
+  .ummc_menu_btn{
+    background-color: #999;
+    background-image: none;
+    display: block;
+    margin-left: 0px;
+    padding-left: 0px;
+    width: 100%;
+    text-align: left;
+  }
+
+  .ummc_menu_btn:hover{
+    background-color: #ff782d;
+    color: #fff;
+  }
+
+  .ummc_menu_btn:active{
+    background-color: #7f7f7f;
+    background-image: none;
+    color: #fff;
+  }
+
+  .ummc_menu_collapse{
+    display: block;
+    background-image: url(../img/knopka.png);
+    color: #fff;
+    display: inline-block;
+    font-family: Tahoma, sans-serif;
+    font-size: 13px;
+    height: 17px;
+    margin-left: -55px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    text-align: center;
+    text-shadow: rgba(0,0,0,.4) 0 1px 0;
+    width: 172px;
+  }
+
+  }
